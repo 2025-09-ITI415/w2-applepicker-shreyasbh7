@@ -773,6 +773,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -33971214107123193, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
+      propertyPath: appleDropDelay
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 591470215021916308, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
