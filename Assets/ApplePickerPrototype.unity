@@ -308,27 +308,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &2046570018 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2166729308853197251, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
-  m_PrefabInstance: {fileID: 1905331844333480156}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2046570022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046570018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b75d59b172c23a044a5f79273af6a975, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  basketPrefab: {fileID: 1567072423996148368, guid: cf3cc9ba5e7520b489be35b22fa82aec, type: 3}
-  numBaskets: 3
-  basketBottomY: -14
-  basketSpacingY: 2
 --- !u!1001 &1905331844333480156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -337,18 +316,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -33971214107123193, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -33971214107123193, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
-      propertyPath: applePrefab
-      value: 
-      objectReference: {fileID: 4828330559104592878, guid: ccc4356e228edf04e971b753d3a92957, type: 3}
-    - target: {fileID: -33971214107123193, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
-      propertyPath: chanceDirChange
-      value: 0.02
-      objectReference: {fileID: 0}
     - target: {fileID: 591470215021916308, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -389,33 +356,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1117827606097894781, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 2166729308853197251, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
       propertyPath: m_Name
       value: AppleTree
       objectReference: {fileID: 0}
-    - target: {fileID: 2166729308853197251, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5565746174298462605, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8585614759312557024, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2166729308853197251, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2046570022}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
