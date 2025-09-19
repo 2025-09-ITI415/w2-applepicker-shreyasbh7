@@ -45,7 +45,7 @@ public class ApplePicker : MonoBehaviour
         // If no baskets are left, reload the scene
         if (basketList.Count == 0)
         {
-            SceneManager.LoadScene("_Scene_0");
+            SceneManager.LoadScene("ApplePickerPrototype");
         }
     }
 }

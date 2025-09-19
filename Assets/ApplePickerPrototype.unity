@@ -348,6 +348,7 @@ GameObject:
   - component: {fileID: 683416974}
   - component: {fileID: 683416973}
   - component: {fileID: 683416972}
+  - component: {fileID: 683416975}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -429,6 +430,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &683416975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683416971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b75d59b172c23a044a5f79273af6a975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 1567072423996148368, guid: cf3cc9ba5e7520b489be35b22fa82aec, type: 3}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
+  basketList: []
 --- !u!1 &753609639
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,7 +839,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: AppleTree
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 382666280376757403, guid: 1f2a3b79653508f4399be281801f3a18, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
